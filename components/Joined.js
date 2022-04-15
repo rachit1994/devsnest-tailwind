@@ -16,7 +16,7 @@ const Joined = () => (
           />
           <button
             type="button"
-            className="btn bg-bookmark-red hover:bg-bookmark-white hover:text-black"
+            className="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase"
           >
             Contact Us
           </button>

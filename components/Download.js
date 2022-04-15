@@ -15,7 +15,7 @@ const Download = () => (
       </p>
     </div>
     <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 max-w-screen-lg mt-16">
-      <div className="flex flex-col rounded-md shadow-md lg:mb-16">
+      <div className="flex flex-col rounded-md shadow-md lg:mb-16 hover:scale-125">
         <div className="p-6 flex flex-col items-center">
           <Image src={Chrome} alt="" />
           <h3 className="mt-5 mb-2 text-bookmark-blue text-lg">
@@ -35,7 +35,7 @@ const Download = () => (
           </button>
         </div>
       </div>
-      <div className="flex flex-col rounded-md shadow-md lg:my-8">
+      <div className="flex flex-col rounded-md shadow-md lg:my-8 hover:scale-125">
         <div className="p-6 flex flex-col items-center">
           <Image src={Firefox} alt="" />
           <h3 className="mt-5 mb-2 text-bookmark-blue text-lg">
@@ -55,7 +55,7 @@ const Download = () => (
           </button>
         </div>
       </div>
-      <div className="flex flex-col rounded-md shadow-md lg:mt-16">
+      <div className="flex flex-col rounded-md shadow-md lg:mt-16 hover:scale-125">
         <div className="p-6 flex flex-col items-center">
           <Image src={Opera} alt="" />
           <h3 className="mt-5 mb-2 text-bookmark-blue text-lg">Add to Opera</h3>
